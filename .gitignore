@@ -1,0 +1,7 @@
+build/
+.cache/
+cmake-build-*/
+.conan2/
+.DS_Store
+__pycache__/
+CMakeUserPresets.json

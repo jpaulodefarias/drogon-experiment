@@ -1,0 +1,8 @@
+#pragma once
+
+#include <string_view>
+
+namespace example {
+inline constexpr std::string_view kOpenApiJson = R"OPENAPI_JSON(@OPENAPI_JSON@)OPENAPI_JSON";
+inline constexpr std::string_view kSwaggerHtml = R"SWAGGER_HTML(@SWAGGER_HTML@)SWAGGER_HTML";
+}  // namespace example

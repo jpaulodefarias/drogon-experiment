@@ -1,0 +1,9 @@
+{
+  "name": "Drogon C++ development",
+  "dockerComposeFile": "compose.yaml",
+  "service": "dev",
+  "workspaceFolder": "/workspaces/drogon-experiment",
+  "remoteUser": "ubuntu",
+  "shutdownAction": "stopCompose",
+  "forwardPorts": [8080]
+}
