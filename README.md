@@ -51,5 +51,3 @@ python3 -m json.tool docs/openapi.json >/dev/null
 To build with ASan and UBSan, configure Debug with `-DENABLE_SANITIZERS=ON` after installing Conan dependencies. `-DENABLE_WERROR=ON` enables strict project warnings. For Release, install Conan dependencies with `-s build_type=Release`, then use the `conan-release` presets.
 
 The design is described in [SDD.md](SDD.md).
-
-The CI workflow in `.github/workflows/ci.yml` runs the same build, migration, tests, format and analysis checks inside the Dev Container.

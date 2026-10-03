@@ -47,7 +47,7 @@ The initial version of the project must provide:
 - static analysis using clang-tidy;
 - automatic formatting using clang-format;
 - AddressSanitizer and UndefinedBehaviorSanitizer support;
-- initial CI-ready project structure.
+- initial project structure for local development.
 
 The architecture should allow business features to be added without coupling application logic to:
 
@@ -859,7 +859,7 @@ Equivalent Clang/GCC options should include:
 -Wshadow
 ```
 
-Warnings should ideally be treated as errors in CI:
+Warnings should ideally be treated as errors:
 
 ```text
 -Werror
@@ -1300,7 +1300,7 @@ UBSan
 compiler warnings
 ```
 
-Add CI-compatible commands.
+Add reproducible commands for local quality checks.
 
 ---
 
